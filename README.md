@@ -52,8 +52,7 @@
         position: relative;
         z-index: -2;
         left: -16px;
-        background: linear-gradient
-        (90deg, rgba(255, 155, 50, 1) 0%, 
+        background: linear-gradient(90deg, rgba(255, 155, 50, 1) 0%, 
         rgba(255, 155, 50, 1) 40%, 
         rgba(240, 100, 0, 1) 60%, 
         rgba(240, 100, 0, 1) 100%);
@@ -68,8 +67,8 @@
         top: -16px;
         left: 34px;
         -webkit-transform: rotate(22deg);
-            -ms-transform: rotate(22deg);
-                transform: rotate(22deg);
+        -ms-transform: rotate(22deg);
+        transform: rotate(22deg);
         z-index: -3;
       }
 
@@ -118,5 +117,5 @@
       /* Pumpkin Face Light on Hover */
       .pumpkin-btn:hover .pumpkin-face {
         -webkit-filter: brightness(12);
-                filter: brightness(12);
+        filter: brightness(12);
       }
