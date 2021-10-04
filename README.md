@@ -22,16 +22,14 @@
         margin: 0 auto;
         width: 100%;
         max-width: 285px;
-        -webkit-transition: all 0.3s ease-in-out;
-        -o-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
       }
 
       /* Button raise up on hover */
       .pumpkin-btn:hover {
-        -webkit-transform: translateY(-4px);
-            -ms-transform: translateY(-4px);
-                transform: translateY(-4px);
+       -webkit-transform: translateY(-4px);
+       -ms-transform: translateY(-4px);
+       transform: translateY(-4px);
       }
 
       /* Pumpkin Front Shape */
@@ -54,9 +52,11 @@
         position: relative;
         z-index: -2;
         left: -16px;
-        background: -webkit-gradient(linear, left top, right top, from(rgba(255, 155, 50, 1)), color-stop(40%, rgba(255, 155, 50, 1)), color-stop(60%, rgba(240, 100, 0, 1)), to(rgba(240, 100, 0, 1)));
-        background: -o-linear-gradient(left, rgba(255, 155, 50, 1) 0%, rgba(255, 155, 50, 1) 40%, rgba(240, 100, 0, 1) 60%, rgba(240, 100, 0, 1) 100%);
-        background: linear-gradient(90deg, rgba(255, 155, 50, 1) 0%, rgba(255, 155, 50, 1) 40%, rgba(240, 100, 0, 1) 60%, rgba(240, 100, 0, 1) 100%);
+        background: linear-gradient
+        (90deg, rgba(255, 155, 50, 1) 0%, 
+        rgba(255, 155, 50, 1) 40%, 
+        rgba(240, 100, 0, 1) 60%, 
+        rgba(240, 100, 0, 1) 100%);
       }
 
       /* Pumpkin Stem */
@@ -105,16 +105,14 @@
         top: 52%;
         left: 52%;
         -webkit-transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+         transform: translate(-50%, -50%);
         -webkit-transition-property: -webkit-filter;
         transition-property: -webkit-filter;
         -o-transition-property: filter;
         transition-property: filter;
         transition-property: filter, -webkit-filter;
-        -webkit-transition-duration: 0.3s;
-             -o-transition-duration: 0.3s;
-                transition-duration: 0.3s;
+        transition-duration: 0.3s;
       }
 
       /* Pumpkin Face Light on Hover */
