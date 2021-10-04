@@ -80,7 +80,7 @@
         background-color: #000;
         position: absolute;
         bottom: 15px;
-        left: 90px;
+        left: 80px;
         z-index: -4;
         padding: 12px 0 10px 15px;
         font-size: 22px;
