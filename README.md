@@ -20,7 +20,7 @@
         cursor: pointer;
         text-align: center;
         margin: 40px auto 20px auto;
-        width: 100%;
+        width: 267px;
         max-width: 285px;
         transition: all 0.3s ease-in-out;
       }
@@ -74,7 +74,7 @@
 
       /* Button Bar with Text */
       .pumpkin-bar {
-        width: 210px;
+        width: 200px;
         height: 60px;
         border-radius: 0 10px 10px 0;
         background-color: #000;
@@ -82,7 +82,7 @@
         bottom: 15px;
         left: 90px;
         z-index: -4;
-        padding: 10px;
+        padding: 12px 0 10px 15px;
         font-size: 22px;
         font-weight: bold;
         color: #fff;
