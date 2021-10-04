@@ -19,7 +19,7 @@
       .pumpkin-btn {
         cursor: pointer;
         text-align: center;
-        margin: 0 auto;
+        margin: 40px auto 20px auto;
         width: 100%;
         max-width: 285px;
         transition: all 0.3s ease-in-out;
